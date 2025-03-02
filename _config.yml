@@ -1,0 +1,29 @@
+title: Amy Wu
+name: "Amy's Blog"
+author: Amy Wu
+twitter_username: <insert here>
+baseurl: "/"
+description: Amy Portfolio
+profile_url: "http://amywanwu.github.io"
+permalink: /:title
+show_drafts: false
+future: false
+category: "post"
+img: ""
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-twitter-plugin
+exclude:
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
